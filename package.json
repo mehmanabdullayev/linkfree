@@ -1,0 +1,14 @@
+{
+  "name": "linkfree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinkFree Social Networking App",
+  "main": "main.js",
+  "scripts": {
+    "client_dev": "npm --prefix ./client/ run dev",
+    "server_dev": "npm --prefix ./server/ run dev"
+  },
+  "keywords": [],
+  "author": "Mehman Abdullayev",
+  "license": "ISC"
+}

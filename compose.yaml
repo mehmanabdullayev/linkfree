@@ -23,7 +23,7 @@ services:
       context: ./server
       args:
         SERVER_PORT: 3002
-        DATABASE_HOST: 172.17.0.1
+        DATABASE_HOST: #secret
         DATABASE_PORT: 5433
         DATABASE_NAME: postgres
         DATABASE_USERNAME: postgres

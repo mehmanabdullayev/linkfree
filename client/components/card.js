@@ -90,7 +90,7 @@ export function Card1({id, avatarURL, title, subheader, content, imageURL, actio
                     <CardMedia
                         crossOrigin = 'anonymous'
                         component="img"
-                        sx = {{maxWidth: 700, maxHeight: 500}}
+                        height = '300'
                         image = {`${process.env.NEXT_PUBLIC_SERVER_ORIGIN}/` + imageURL}
                         alt = 'post image'
                     />

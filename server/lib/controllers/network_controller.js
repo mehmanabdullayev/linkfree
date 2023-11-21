@@ -334,7 +334,7 @@ async function suggestions(request, response) {
 
             for (let e of following) {
                 const e_follows = await Follow.findAll({
-                    where: {followerId: e.dataValues.followedId}
+                    where: {followerId: e.dataValues.followedId, followedId: {[Op.ne]: user.id}}
                 })
 
                 for (let e1 of e_follows) {

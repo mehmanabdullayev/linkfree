@@ -219,7 +219,7 @@ export default function ProfileComponent({imageURL}) {
                                         </>
                                         :
                                         <Grid container>
-                                            <Grid item xs={8}>
+                                            <Grid item xs={currentUser? 8 : 12}>
                                                 <Typography
                                                     sx={{m: 2}}
                                                     className={inter.className}

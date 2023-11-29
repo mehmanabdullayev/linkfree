@@ -27,8 +27,8 @@ Linkfree is a professional social networking app similar to Linkedin. However, i
 ![](./client/public/screenshots/Capture.PNG)
 
 #### Links
-- [Live Site URL](http://13.43.110.103:3000/)
 Note: Server is currently down due to cost it generates on AWS EC2 instance ($1 per day). I cannot handle this cost. Therefore, it is down.
+- [Live Site URL](http://13.43.110.103:3000/)
 
 ### Stack
 - Built with
